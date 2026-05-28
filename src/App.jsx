@@ -122,13 +122,38 @@ export default function App() {
             <a href="#praktyka" className="hover:text-blue-700">Przykłady</a>
             <a href="#pliki" className="hover:text-blue-700">Pliki</a>
             <a href="#kontakt" className="hover:text-blue-700">Pomoc</a>
+            <a href="#kontakt">Kontakt</a>
           </nav>
           <a href="#pliki" className="hidden rounded-full bg-blue-700 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-blue-800 md:inline-flex">
             Pobierz materiały
           </a>
         </div>
       </header>
+<section id="kontakt" className="bg-white py-20">
+  <div className="max-w-4xl mx-auto px-6">
+    <h2 className="text-4xl font-bold mb-6">
+      Kontakt
+    </h2>
 
+    <div className="bg-slate-100 rounded-3xl p-8">
+      <p className="mb-4">
+        <strong>Nazwa instytucji:</strong> Centrum Pomocy
+      </p>
+
+      <p className="mb-4">
+        <strong>Telefon:</strong> 123 456 789
+      </p>
+
+      <p className="mb-4">
+        <strong>Email:</strong> kontakt@twojastrona.pl
+      </p>
+
+      <p>
+        <strong>Adres:</strong> Warszawa
+      </p>
+    </div>
+  </div>
+</section>
       <main id="start">
         <section className="relative overflow-hidden bg-slate-950 text-white">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(37,99,235,0.45),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(14,165,233,0.24),transparent_35%)]" />
